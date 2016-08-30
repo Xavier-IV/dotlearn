@@ -3,8 +3,8 @@
 Ok, I've been talking a lot about uploading. From now, you NEED to understand this, and this is important.
 
 >Your GIT project is done in 2 places.
->1. Online(Remote)
->2. Local(your computer)
+> 1. Online(Remote)
+> 2. Local(your computer)
 
 Yep, what we have done so far is make a local git repository. How to make it online, or specifically, how do we 'push' it online?
 
