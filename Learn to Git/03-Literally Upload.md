@@ -35,9 +35,11 @@ Your furniture is all your codes and projects file, it is now inside a `local` h
 
 >You can check out your File inside the Bitbucket/Github that they have not uploaded it yet. The magic will begin soon!
 
-	$ git push origin master
+	$ git push origin master --force
 
-If it asks for password, just give in the password that you use to register with `Github/Bitbucket`.
+If it asks for password and username, just give in the password and username that you use to register with `Github/Bitbucket`.
+
+>Why use --force? Well because this is our first push, Github/Bitbucket sometimes create a file in the Remote directory. We don't want that, this is the same as saying "Hey, whatever in that new home, throw it out. We rule now!"
 
 Yep, that's it. After the uploading is complete, check out your Bitbucket/Github again, and see the magic.
 
