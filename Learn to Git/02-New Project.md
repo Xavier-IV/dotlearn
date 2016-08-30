@@ -51,6 +51,10 @@ Remember, git is blind. We will want to upload it. So tell this fella, "Hey, I m
 
 Hey, that's a new term, no fair! But it's ok, it is our way to tell git, "Hey sexy, we have add up our files, we are commit to upload it!"
 
+	$ git commit -m "Initial commit honey"
+
+Well, of course you need to commit with professional 'message'. That -m is an option for telling git what we want to say about our commit! Simple.
+
 
 # What we did?
 
