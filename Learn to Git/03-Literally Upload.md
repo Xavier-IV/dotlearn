@@ -3,8 +3,9 @@
 Ok, I've been talking a lot about uploading. From now, you NEED to understand this, and this is important.
 
 >Your GIT project is done in 2 places.
->1. Online(Remote)
->2. Local(your computer)
+>
+> 1. Online(Remote)
+> 2. Local(your computer)
 
 Yep, what we have done so far is make a local git repository. How to make it online, or specifically, how do we 'push' it online?
 
@@ -38,6 +39,9 @@ Your furniture is all your codes and projects file, it is now inside a `local` h
 	$ git push origin master --force
 
 If it asks for password and username, just give in the password and username that you use to register with `Github/Bitbucket`.
+
+	Note that when you type in your password, nothing is written down. It is ok, just type in, this is one
+	way for them for security measure.
 
 >Why use --force? Well because this is our first push, Github/Bitbucket sometimes create a file in the Remote directory. We don't want that, this is the same as saying "Hey, whatever in that new home, throw it out. We rule now!"
 
